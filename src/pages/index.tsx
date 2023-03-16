@@ -17,11 +17,15 @@ export default function Home() {
       </Head> */}
       <main className=''>
         <section className='mt-16'>
-          <h1 className='text-6xl font-bold '>Hi I'm <span className='dark:text-purple-600 text-blue-500'>Franck</span></h1>
-          <h3 className='text-3xl my-3'>I am web Designer</h3>
-          <p className='text-gray-700 mb-8 dark:text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus repellat sequi sunt voluptatum corporis voluptatibus cumque facere, vel molestias magni.</p>
+          <h1 className='text-6xl font-bold '>Hi,  This is a  <span className='dark:text-purple-600 text-red-500'>Example</span></h1>
+          <h3 className='text-3xl my-3'>Aplication whit <span className='font-bold dark:text-green-300 text-green-700'> Next js </span>, and <span className='font-bold dark:text-blue-300 text-blue-500'>Tailwind css</span></h3>
+          <p className='text-gray-700 mb-8 dark:text-white'>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, quaerat, dolorum minus fugit iste sequi suscipit voluptatem illo in labore distinctio dolorem qui. Quam consequuntur a blanditiis iure ipsum asperiores perferendis obcaecati voluptatem. Totam nesciunt minima odit dignissimos at! Sequi dolore suscipit rem inventore ducimus illum voluptates explicabo officia nesciunt?
+          </p>
         </section>
-        <Button className='bg-purple-600 text-white px-6'>Contact me!</Button>
+        <Link href={'https://github.com/FranckRomer/modo_oscuro_nextjs'} >
+          <Button className='bg-purple-600 text-white px-6 m-auto'>Check de CODE</Button>
+        </Link>
       </main>
     </>
   )
